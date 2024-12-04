@@ -40,7 +40,7 @@ def scale_features(df, columns):
 
 if __name__ == "__main__":
     
-    df = load_data('data/obesity_data.csv')
+    df = load_data('data/ObesityDataSet_raw_and_data_sinthetic.csv')
     print("Dataset shape:", df.shape)
     print("\nFirst few rows:")
     print(df.head())
